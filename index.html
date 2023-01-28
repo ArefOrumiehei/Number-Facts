@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Number Facts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body dir="ltr">
+    <div class="container">
+        <div id="content" class="content">
+            <h1>Number Facts</h1>
+            <form action="#" id="form">
+                <div class="six columns" >
+                    <h6>Result :</h6>
+                    <div id="result"></div>
+                    <br>
+                </div>
+                    <div class="row">
+                    <div class="six columns" id="form-input">
+                        <label for="number">Enter The Number :</label>
+                        <input id="number" placeholder="-- random --" type="number">
+
+                        <br>
+
+                        <label id="type" for="type">Number Type :</label>
+                        <select class="u-full-width" id="number-type">
+                            <option value=''>-- random --</option>
+                            <option value="trivia">trivia</option>
+                            <option value="math">math</option>
+                            <option value="date">date</option>
+                            <option value="year">year</option>
+                        </select>
+                        
+                        <br>
+
+                        <input class="btn btn-outline-warning" type="submit" value="show fact">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
