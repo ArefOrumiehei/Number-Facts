@@ -24,7 +24,7 @@ function numberFact(e){
     if (numberType !== '') {
         url += (numberType + '/')
     }
-console.log(url);
+
     // Ajax
     const xhr = new XMLHttpRequest()
 
