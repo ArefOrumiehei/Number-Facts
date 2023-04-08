@@ -3,8 +3,6 @@ const form = document.querySelector('#form')
 
 form.addEventListener('submit' , numberFact)
 
-
-
 function numberFact(e){
     e.preventDefault()
     
